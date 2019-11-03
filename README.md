@@ -3,6 +3,8 @@
 
 > offical reasons : Vim is Best editor of the time!
 
+![](https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/vim-512.png)
+
  [Here is Vim](https://www.vim.org/)
 
 **And MY Reasons:**  
@@ -13,7 +15,10 @@
 + Using Vim, you can definetely feel free and feel vim is what you're builing and using, that feeling is the the coolest thing when you're coding.
 
 ### Then Let show you What I do with vim
+
 > Of course, I use Vim for living a better coding life!
+
+![pic](https://github.com/Zxrcoming/vimrc/blob/master/Screenshot%20from%202019-11-03%2018-28-57.jpg?raw=true)
 
 *Here is [my vim config file](https://github.com/Zxrcoming/vimrc/blob/master/vimrc)*
 
