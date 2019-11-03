@@ -1,103 +1,54 @@
-# vimconf
+### First of all Why use Vim as my editor
+*the reasons are as follows*
 
-🏆using vim with proper vim config is very essential,so try this reop🏆
+> offical reasons : Vim is Best editor of the time!
 
+ [Here is Vim](https://www.vim.org/)
 
-![my-vimconf](https://raw.githubusercontent.com/Zxrcoming/vimconf/master/2019-07-18-1563435902_screenshot_1920x1080.jpg)
-### just download the repo to your .vim,and you will be good to go.
-🔛                                                        🆗
+**And MY Reasons:**  
 
-> it's still important to read the following
-> if you want customize your vim.
++ Vim has a great keybinding which allows me type everythins just in my keyboard!
++ And a lot of developers are developing vim-plugs all the time, so you can enjoy a tons of great plugs if you use vim as your editor.
++ Vim is the highest costmizable editor compared to [Atom](http://atom.io) and [VScode](https://code.visualstudio.com/) and other editors I have used in the past.
++ Using Vim, you can definetely feel free and feel vim is what you're builing and using, that feeling is the the coolest thing when you're coding.
 
-#### Plugins of Vim
+### Then Let show you What I do with vim
+> Of course, I use Vim for living a better coding life!
 
-🅰 read the [vim-PlugInstall-essential](https://github.com/junegunn/vim-plug)
--    open vim and run the favorite ``Plugins`` like this
-```vim
-	:PlugInstall
-```
-> 🤖it will take some time to finish.
+*Here is [my vim config file](https://github.com/Zxrcoming/vimrc/blob/master/vimrc)*
 
-**there is the list of my vim Plugins**
-```vim
+1. As Vim is can be fully custmize, so you can change the default vim-keybinding to your most comfortable and enjoyable keybinding just because vim can.And you can even change how your vim-plug behave,just simply tell it what to do in what time.
 
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'connorholyday/vim-snazzy'
-Plug 'bling/vim-bufferline'
+ 	and here is my keybindings(I get used to the default keybindings though I just tweak a little)
 
-"emoji for vim
-Plug 'fszymanski/deoplete-emoji'
+	| fast moving           | Key binding |
+	|-----------------------|-------------|
+	| move down 5 lines     | J           |
+	| move up 5 lines       | K           |
+	| move left 5 character | L           |
+	| move righ 5 charater  | H           |
+	| move forward 5 words  | W           |
+	| move backward 5 words | B           |
+	----above is the most usable keybindings in daily use.----
 
-"snippets
-Plug 'honza/vim-snippets'
-Plug 'Shougo/neosnippet.vim'
-Plug 'Shougo/neosnippet-snippets'
+	and some other keybindings for some vim-plugs I've installed is written very detailed in [vimrc](https://github.com/Zxrcoming/vimrc/blob/master/vimrc)   
+	**If you're interested, hope it can help you!**
 
-"deoplete.nvim
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
-Plug 'Shougo/neco-vim'
-
-" something with vim-jedi for python completion
-Plug 'deoplete-plugins/deoplete-jedi'
-Plug 'davidhalter/jedi-vim'
-
-" clang completion
-Plug 'justmao945/vim-clang'
-
-"nerttree"
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
+	(note: the default vim-keybinding is **h** for left, **j** fordown,and **k** for up,**l** for right, )
 
 
-" distraction free writing mode
-Plug 'junegunn/goyo.vim'
+2. Then using [vim-plug](https://github.com/junegunn/vim-plug) to manage your vim plugs, so you can make Vim a better editor for you!
+**just follow the instructions [that vim-plug repo](https://github.com/junegunn/vim-plug) and you can be good to go.**
 
+3. Choose your favorate vim plugs that is gonna truely help you do some useful stuffs,and just install it and get familiar with it. **Make it your great developing tools**
 
-"error checking
-Plug 'w0rp/ale'
-
-"coding theme for different coding langues
-Plug 'elzr/vim-json'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'gko/vim-coloresque', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
-Plug 'pangloss/vim-javascript', { 'for' :['javascript', 'vim-plug'] }
-Plug 'mattn/emmet-vim'
-
-"python indent
-Plug 'vim-scripts/indentpython.vim'
-
-
-"MarkDown
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
-Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
-Plug 'vimwiki/vimwiki'
-
-
-"dependences
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'fadein/vim-FIGlet'
-Plug 'kana/vim-textobj-user'
-```
-~~all above takes me a lot of time~~ :cry:
-
-#### ⬇Markdown preview⬇
->Especially for Markdown user:
-
--   you can use the ` Vim Plugin ` to see your editting markdown file in real time.
-
--   here is the link of the detailed info about the [vim-instant-markdown](https://github.com/suan/vim-instant-markdown).
-
-Here we see the functioning stuff.
-
-
-![markdown-preview](https://raw.githubusercontent.com/Zxrcoming/vimconf/master/2019-07-18-1563435399_screenshot_1920x1080.jpg)
-## self changing the config is also easy.
-
--   you can learn through my code in vimrc and you will learn how to change the mapping and toggle mod of some extensions,wish you good luck.
-
-> having fun for you ✌
+    *And here is my plugs as examples:*
+	
+	| tweaks and functions | my vim plugs                                                                                                   |
+	|----------------------|----------------------------------------------------------------------------------------------------------------|
+	| colorsthemes         | `Plug 'vim-airline/vim-airline-themes'`<br>`Plug 'connorholyday/vim-snazzy'`<br>`Plug 'ayu-theme/ayu-vim'`<br> |
+	| autocompletion       | `Plug 'neoclide/coc.nvim', {'branch': 'release'}`                                                              |
+	| error checking       | `Plug 'w0rp/ale'`                                                                                              |
+	| git-combination      | `Plug 'airblade/vim-gitgutter'`<br>`Plug 'tpope/vim-fugitive'`                                                 |
+	| quick-file-finder    | `Plug 'junegunn/fzf'`                                                                                          |
+	**and some other useful plugs,you can find it in my [vimrc](https://github.com/Zxrcoming/vimrc/blob/master/vimrc)**

@@ -138,9 +138,6 @@ call plug#begin('~/.vim/plugged')
 "surroud
 Plug 'tpope/vim-surround'
 
-"airline branch smybols
-Plug 'tpope/vim-fugitive'
-
 "fancy startup menu
 Plug 'mhinz/vim-startify'
 
@@ -199,6 +196,7 @@ Plug 'jiangmiao/auto-pairs'
 
 "vim-git
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 
 "devicons
