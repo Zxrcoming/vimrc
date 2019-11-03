@@ -1,0 +1,25 @@
+{
+	"suggest.noselect" : true,
+	"coc.source.emoji.triggerCharacters": [
+		"'"
+	],
+	"snippets.extends": {
+		"javascriptreact": ["javascript"],
+		"typescript": ["javascript"]
+	},
+	"python.jediEnabled": false,
+	"languageserver": {
+		"clangd": {
+			"command": "clangd",
+			"args": ["--background-index"],
+			"rootPatterns": ["compile_flags.txt", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+			"filetypes": ["c", "cpp", "objc", "objcpp"]
+		},
+		"bash": {
+			"command": "bash-language-server",
+			"args": ["start"],
+			"filetypes": ["sh"],
+			"ignoredRootPaths": ["~"]
+		}
+	}
+}
